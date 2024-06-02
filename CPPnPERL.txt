@@ -1,1 +1,26 @@
 //How to create a communication channel between cpp and perl to share data bi-directionally.
+
+To share data between perl and cpp, there some ways
+1. Shared memory
+2. Pipes
+3. API call
+4. File dump
+5. Perl interpreter inside cpp
+
+I have started working with shared memory, 
+Pros of using shared memory(SHM):
+	1. You can load the data in SHM, just referencing with a unique key
+	2. Fastest way.
+
+Cons of using shared memory:
+	1. Limited number of shared segments(~4000)
+	2. Sharing the different data types from cpp, but fetching the same on perl side is typical.
+
+
+
+
+
+
+
+
+
