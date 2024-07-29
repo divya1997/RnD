@@ -1,0 +1,10 @@
+This file is to summarize all the segmentation faults in the memgraph.
+
+1. Fix segmentation fault observed in the logs #1350
+
+How to reproduce this issue:
+1. How to compile memgraph?
+2. How to create an docker image of memgraph?
+3. Get/Create a data set for memgraph.
+4. Create a script to get and set data/nodes in memgraph.
+  
